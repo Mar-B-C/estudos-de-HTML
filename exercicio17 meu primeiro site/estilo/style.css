@@ -1,0 +1,98 @@
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to top,#154C2E, #3CD782 );
+    padding: 30px;
+    margin: 0px;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.342);
+}
+header > h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+    text-align: center;
+}
+
+header > p{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+header > a{
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+
+main{
+    font-size: 16px;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 232px 15px 232px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.274);
+}
+article{
+    padding: 0%;
+}
+
+article > h1{
+    font-size: 40px;
+    color: #154C2E;
+    margin: 15px;
+}
+
+article > h2{
+    color: #154C2E;
+    background-color: #82D6A3;
+    background-image: linear-gradient(to right, #82D6A3, white );
+    background-image: -moz-linear-gradient(to top, white);
+    margin: 15px;
+    padding: 0px 6px;
+}
+article > p{
+    text-indent: 10px;
+    text-align: justify;
+    padding: 15px;
+}
+article > img{
+    text-align: center;
+}
+nav#video{
+    text-align: center;
+    background-color: #154C2E;
+    padding: 10px;
+    margin: -20px;
+}
+
+footer{
+    color: white;
+    background-color: #154C2E;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+p#olaa{
+    font-weight: bold;
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+    background-color: #2FA866;
+    padding: 10px;
+}
+
+article#ola{
+    border-radius: 7px;
+    background-color: #C5EBD6;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.226);
+    margin: 0px;
+    padding: 0px;
+}
+article.opa{
+    text-align: center;
+}
