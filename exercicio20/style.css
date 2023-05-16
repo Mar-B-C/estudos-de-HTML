@@ -37,7 +37,6 @@ header a:hover{
 
 main{
     font-size: 3em;
-    margin-left: 0.5em;
     margin-top: 1em;
 
 }
@@ -45,10 +44,45 @@ main p{
     width: 500px;
     font-family: 'sriracha';    
     line-height: 2em;    
+    margin: 0.5em;
+    margin-bottom: 3em;
+}
+
+#primeira{
+    color: white;
+    background-image: url(pacote-d012/imagens/background001.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#pr{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+#segundo{
+    color: white;
+    background-image: url(pacote-d012/imagens/background002.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#se{
+    background-color: rgba(0, 0, 0, 0.288); 
+}
+
+
+footer{
+    font-size: 1.2em;
+    color: rgb(240, 240, 240);
+    background-color: black;
+    text-align: center;
     padding: 10px;
 }
-#primeira{
-    width: 100vh;
-    background-color: black;
-    background-image: url(pacote-d012/imagens/background001.jpg);
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
 }
