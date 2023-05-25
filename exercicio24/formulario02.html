@@ -9,25 +9,33 @@
 <body>
     <h1>Teste de Formulario</h1>
     <form action="documento.php" method="post" autocomplete="off">
-    <p>
-        <label for="inome"> nome:</label>
-        <input type="text" name="nome" id="inome" required minlength="6" placeholder="coloque seu nome">
-    </p>
-
-    <p>
-        <label for="isenha">senha</label>
-        <input type="password" name="senha" id="isenha" required minlength="6" placeholder="coloque sua senha">      
-    </p> 
-
-    <p>
-        <label for="inumero">idade</label>
-        <input type="number" name="numero" id="inumero" placeholder="coloque sua idade" min="0" max="10" step="0.5">
-    </p>
-
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </p>
+    <fieldset>
+        <legend>Agrupamento</legend>
+        <p>
+            <label for="inome"> nome:</label>
+            <input type="text" name="nome" id="inome" required minlength="6" placeholder="Coloque seu Nome">
+        </p>
+        <p>
+            <label for="isenha">senha</label>
+            <input type="password" name="senha" id="isenha" required minlength="6" placeholder="Coloque sua Senha">
+        </p>
+        <p>
+            <label for="inumero">idade</label>
+            <input type="number" name="numero" id="inumero" placeholder="Coloque sua Idade" min="0" max="10" step="0.5">
+        </p>
+        <p>
+            <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail" placeholder="Coloque seu Email" autocomplete="email" required>
+        </p>
+        <p>
+            <label for="itele">Telefone</label>
+            <input type="tel" name="tele" id="itele" placeholder="(xx)xxxxx-xxxxx" autocomplete="tel" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </fieldset>
     </form>
 
 
