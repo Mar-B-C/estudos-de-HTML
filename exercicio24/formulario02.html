@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Teste de Formulario</h1>
-    <form action="documento.php" method="post" autocomplete="off">
+    <form action="documento.php" method="post" autocomplete="on">
     <fieldset>
         <legend>Agrupamento</legend>
         <p>
@@ -30,12 +30,15 @@
         <p>
             <label for="itele">Telefone</label>
             <input type="tel" name="tele" id="itele" placeholder="(xx)xxxxx-xxxxx" autocomplete="tel" required>
-        </p>
+        </p>    
+        
+    </fieldset>
         <p>
+
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
-    </fieldset>
+
     </form>
 
 
