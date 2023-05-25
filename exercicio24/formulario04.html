@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores e Barra</title>
+</head>
+<body>
+    <form action="documento.php" method="post">
+        <fieldset>
+            <legend>Escolha sua Cor</legend>
+
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor"> <br>
+        </fieldset>
+
+            <fieldset>
+                <legend>Mova</legend>
+                <label for="imov">Marque de 1 a 10</label>
+                <input type="range" name="mov" id="imov" min="1" max="10" value="5">
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha sua Foto</legend>
+
+                <label for="ifoto">Coloque sua Foto</label>
+                <input type="file" name="foto" id="ifoto">
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+
+    </form>
+    
+</body>
+</html>
