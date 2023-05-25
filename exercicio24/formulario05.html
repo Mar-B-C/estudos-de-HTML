@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção</title>
+</head>
+<body>
+    <form action="documento.php" method="post">
+        <p>
+            <label for="iest">Estados:</label>
+            <select name="est" id="iest">Estados
+
+            <optgroup label="Região SUSS">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+            <optgroup label="Facas">
+                <option value="F1">guinsu 2000</option>
+                <option value="F2">Tramontina</option>
+                <option value="F3">Feita para o Combate</option>
+            </optgroup>
+        </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissões:</label>
+            <input type="text" name="prof" id="iprof" list="iprofi">
+            <datalist id="iprofi">
+                <option value="Massageador de Veia"></option>
+                <option value="Pulador de Cerca"></option>
+                <option value="Traficante Internacional"></option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="itex">Escreva seu Texto:</label> <br>
+            <textarea name="tex" id="itex" cols="30" rows="10" placeholder="digitar aqui"></textarea>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
